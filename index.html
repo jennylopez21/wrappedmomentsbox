@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wrapped Moments | With Love Inside</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="lang.js"></script>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Wrapped Moments Logo" class="logo">
+    <nav>
+      <ul>
+        <li><a href="#about" data-i18n="about">About</a></li>
+        <li><a href="#benefits" data-i18n="benefits">Benefits</a></li>
+        <li><a href="#how" data-i18n="how">How it works</a></li>
+        <li><a href="#gallery" data-i18n="gallery">Gallery</a></li>
+        <li><a href="#contact" data-i18n="contact">Contact</a></li>
+      </ul>
+      <select id="lang-switcher">
+        <option value="en">EN</option>
+        <option value="es">ES</option>
+      </select>
+    </nav>
+  </header>
+  <section class="hero">
+    <img src="logo.png" alt="Wrapped Moments Logo" class="hero-logo">
+    <h1>Wrapped Moments</h1>
+    <h2 data-i18n="slogan">With love inside</h2>
+    <p data-i18n="intro">Professional gift boxes for real estate agents. Impress your clients, create unforgettable moments.</p>
+    <a href="#contact" class="cta" data-i18n="cta">Get in touch</a>
+  </section>
+  <section id="about">
+    <h2 data-i18n="about">About Wrapped Moments</h2>
+    <p data-i18n="about-text">
+      We create exclusive, artistic, and elegant gift boxes for real estate agents to impress and delight clients at every closing.
+    </p>
+  </section>
+  <section id="benefits">
+    <h2 data-i18n="benefits">Benefits</h2>
+    <ul class="benefit-list">
+      <li data-i18n="benefit1"><strong>Memorability:</strong> Stand out with a unique gift.</li>
+      <li data-i18n="benefit2"><strong>Professionalism:</strong> Elevate your client experience.</li>
+      <li data-i18n="benefit3"><strong>Customization:</strong> Tailored for each occasion.</li>
+    </ul>
+  </section>
+  <section id="how">
+    <h2 data-i18n="how">How it works</h2>
+    <ol>
+      <li data-i18n="step1">Select your box</li>
+      <li data-i18n="step2">Personalize with your brand</li>
+      <li data-i18n="step3">We deliver to your office or client</li>
+    </ol>
+  </section>
+  <section id="gallery">
+    <h2 data-i18n="gallery">Gallery</h2>
+    <div class="gallery">
+      <img src="giftbox1.jpg" alt="Sample gift box 1">
+      <img src="giftbox2.jpg" alt="Sample gift box 2">
+      <!-- Add more images as needed -->
+    </div>
+  </section>
+  <section id="contact">
+    <h2 data-i18n="contact">Contact</h2>
+    <form>
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message"></textarea>
+      <button type="submit" data-i18n="send">Send</button>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2025 Wrapped Moments</p>
+  </footer>
+</body>
+</html>
