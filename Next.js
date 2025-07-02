@@ -1,0 +1,20 @@
+/public/logo.png         # Usa tu logo aquí
+/pages/
+  _app.js
+  index.js
+  [lang]/
+    index.js
+/locales/
+  en.json
+  es.json
+/components/
+  Header.js
+  Hero.js
+  About.js
+  Benefits.js
+  HowItWorks.js
+  Gallery.js
+  Contact.js
+  Footer.js
+/styles/
+  globals.css
